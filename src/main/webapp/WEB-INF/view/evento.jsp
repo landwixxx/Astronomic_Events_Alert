@@ -6,9 +6,9 @@
 </head>
 <body>
 <h1>
-    Landing Page
+    Evento
 </h1>
 <br/>
-<a href="cadastro">CADASTRO</a> | <a href="login">LOGIN</a>
+<a href="/home">Sair</a> | <a href="/evento">Cadastrar</a>
 </body>
 </html>

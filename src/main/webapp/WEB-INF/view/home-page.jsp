@@ -9,6 +9,6 @@
     Landing Page
 </h1>
 <br/>
-<a href="cadastro">CADASTRO</a> | <a href="login">LOGIN</a>
+<a href="evento">Cadastrar Evento</a> | <a href="logout">Sair</a>
 </body>
 </html>
