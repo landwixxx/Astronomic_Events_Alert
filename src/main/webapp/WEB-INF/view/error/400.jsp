@@ -4,11 +4,6 @@
 <head>
     <title>AEA - Astronomic Events Alert</title>
 </head>
-<body>
-<h1>
-    Evento
-</h1>
-<br/>
-<a href="/home">Sair</a> | <a href="/evento">Cadastrar</a>
+<img src="" alt="400">
 </body>
 </html>

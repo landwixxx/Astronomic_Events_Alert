@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>
-    Landing Page
+    Home Page
 </h1>
 <br/>
 <a href="evento">Cadastrar Evento</a> | <a href="logout">Sair</a>

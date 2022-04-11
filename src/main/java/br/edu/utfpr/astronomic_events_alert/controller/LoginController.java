@@ -1,14 +1,12 @@
-package br.edu.utfpr.astronomic_events_alert;
+package br.edu.utfpr.astronomic_events_alert.controller;
 
+import java.io.*;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+import javax.servlet.http.*;
+import javax.servlet.annotation.*;
 
 @WebServlet(name = "loginServlet", value = "/login")
-public class LogoutServlet extends HttpServlet {
+public class LoginController extends HttpServlet {
     private String message;
     private final String HOME = "/home";
     private final String VIEW = "/WEB-INF/view/";
@@ -30,8 +28,6 @@ public class LogoutServlet extends HttpServlet {
 
         request.getRequestDispatcher(HOME).forward(request, response);
     }
-
-
     public void destroy() {
     }
 }

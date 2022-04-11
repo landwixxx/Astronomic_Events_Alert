@@ -5,10 +5,6 @@
     <title>AEA - Astronomic Events Alert</title>
 </head>
 <body>
-<h1>
-    Listagem de evento
-</h1>
-<br/>
-<a href="home">CADASTRO</a> | <a href="evento">Listar Eventos</a>
+<img src="" alt="server-error">
 </body>
 </html>
