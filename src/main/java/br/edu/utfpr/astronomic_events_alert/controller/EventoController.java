@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "cadastroServlet", value = "/cadastro")
+@WebServlet(name = "eventoServlet", value = "/evento")
 public class EventoController extends HttpServlet {
     private String message;
     private final String HOME = "/home";

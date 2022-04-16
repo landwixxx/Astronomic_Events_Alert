@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "loginServlet", value = "/login")
+@WebServlet(name = "logoutServlet", value = "/logout")
 public class LogoutController extends HttpServlet {
     private String message;
     private final String HOME = "/home";

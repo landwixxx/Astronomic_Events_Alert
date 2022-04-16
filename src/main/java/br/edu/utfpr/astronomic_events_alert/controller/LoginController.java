@@ -19,14 +19,14 @@ public class LoginController extends HttpServlet {
         response.setContentType("text/html");
 
         request.setAttribute("message", message);
-        request.getRequestDispatcher(VIEW + "home").forward(request, response);
+        request.getRequestDispatcher(VIEW + "login.jsp").forward(request, response);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String email = request.getParameter("email");
         String pass = request.getParameter("password");
 
-        request.getRequestDispatcher(HOME).forward(request, response);
+        request.getRequestDispatcher(HOME + "home").forward(request, response);
     }
     public void destroy() {
     }

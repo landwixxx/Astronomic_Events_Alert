@@ -5,6 +5,6 @@
     <title>AEA - Astronomic Events Alert</title>
 </head>
 <body>
-<img src="" alt="Erro 404">
+<img src="resources/img/404-error.png" alt="Erro 404">
 </body>
 </html>
