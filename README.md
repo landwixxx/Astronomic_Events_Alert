@@ -39,4 +39,4 @@ ___________
 
 ### JPA
 - [x] 2 entidades
-- [ ] Operações de CRUD.
+- [x] Operações de CRUD.

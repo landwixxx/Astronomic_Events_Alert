@@ -1,17 +1,24 @@
 package br.edu.utfpr.astronomic_events_alert.model.domain;
 
-import java.io.Serializable;
+import lombok.*;
+
+import javax.persistence.*;
 import java.util.Date;
 
-public class Evento implements Serializable {
+@Entity
+@Table(name="eventos")
+@Data
+@NoArgsConstructor
+@RequiredArgsConstructor(access = AccessLevel.PUBLIC)
+public class Evento{
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    @NonNull
     private String titulo;
+    @NonNull
     private String desc;
+    @NonNull
     private Date data;
-
-    public Evento(String titulo, String desc, Date data) {
-        this.titulo = titulo;
-        this.desc = desc;
-        this.data = data;
-    }
 
 }
